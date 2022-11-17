@@ -27,6 +27,7 @@ function CountryDetails() {
            
            
            <div className="col-7">
+           <img src={`https://flagpedia.net/data/flags/icon/72x54/${country.alpha2Code.toLowerCase()}.png`} alt="" />
             <h1>{country.name.common}</h1>
             <table className="table">
               <thead></thead>
